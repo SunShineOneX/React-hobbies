@@ -5,7 +5,7 @@ function Card(props) {
         <div>
             <h2>My favorite hobby is...</h2>
             <h3>{props.hobby}</h3>
-            <img src={props.img}/>
+            <img src={props.img} className="hobby-img"/>
             <p>{props.details}</p>
 
         </div>
